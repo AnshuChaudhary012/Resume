@@ -38,6 +38,9 @@ header , main {
 .myimage{
     height: 100px;
     border-radius: 50%;
+    width: 100px;
+    margin-top: 20px;
+
     /* padding-bottom: 10px; */
     
     
