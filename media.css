@@ -1,0 +1,68 @@
+@media only screen and (min-width:300px) and (max-width:650px) {
+    
+
+        .box {
+            grid-template-columns: 1fr 8fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+
+        .excel {
+            grid-column: 2/3;
+        }
+
+        .html {
+            grid-area: 2/2/-3/3;
+        }
+
+        .css {
+            grid-area: 3/2/-3/3;
+        }
+
+        .js {
+            grid-area: 4/2;
+        }
+        
+        .skillarea{
+            height: auto;
+            background-color: #ceb098;
+        }
+    }  
+    @media only screen and (min-width:651px) and (max-width:950px) {
+        .myskill{
+            padding-top: 50px;
+        }
+        .hero {
+            height: auto;
+            padding: 0%;
+        }
+
+        .box {
+            grid-template-columns: 1fr 4fr 4fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .css {
+            grid-column: -4/-3;
+        }
+        .skills{
+            height: auto;
+        }
+        .myimage{
+            border-top: 20px;
+        }
+        .hero {
+        height: 66vh;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    }
+
+    @media only screen and (min-width:951px) and (max-width:2000px) {
+        .btn {
+            font-size: larger;
+        }
+        .skills{
+            height: auto;
+        }
+
+    }
